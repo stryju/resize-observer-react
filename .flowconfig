@@ -1,0 +1,11 @@
+[ignore]
+<PROJECT_ROOT>/dist/.*
+<PROJECT_ROOT>/node_modules/config-chain/test/broken.json
+
+[options]
+emoji=true
+
+[lints]
+all=warn
+untyped-type-import=error
+sketchy-null-bool=off

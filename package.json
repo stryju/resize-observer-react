@@ -1,0 +1,33 @@
+{
+  "name": "resize-observer-react",
+  "version": "1.0.0",
+  "description": "ResizeObserver, the React component",
+  "main": "source/index.jsx",
+  "author": "tomasz stryjewski <stryjewski.t@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "react": "^16.2.0",
+    "resize-observer-polyfill": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.18.1",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.66.0",
+    "invariant": "^2.2.3",
+    "parcel-bundler": "^1.6.2",
+    "prettier": "1.10.2",
+    "react-dom": "^16.2.0",
+    "yarn": "^1.3.2"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build src/index.jsx"
+  }
+}
